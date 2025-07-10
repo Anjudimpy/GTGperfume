@@ -68,12 +68,12 @@
 }
 .home-page .link{
     text-decoration: none;
-    color:rgb(61, 56, 79);
+    color:#162456
     
 }
 .home-page .link-2{
     text-decoration: none;
-    color:rgb(56, 79, 66);
+    color:#162456;
 }
 .home-page .frame-2{
     display: flex;
@@ -198,3 +198,110 @@
   letter-spacing: -1.33px;
   line-height: 62.8px;
 }
+.home-page .frame-8 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 52px;
+  position: relative;
+  flex: 0 0 auto;
+ justify-content: space-between;
+ margin-top: -4.5rem;
+
+}
+.home-page .frame-9 {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg,rgba(3, 46, 21, 0.6) 0%,rgba(1, 102, 48, 0.6) 100% );
+  background-clip: text;
+  color: transparent;
+  font-family: 'Inter', sans-serif;
+ }
+
+.home-page .frame-9 p {
+  margin: 0;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.home-page .frame-9 .element {
+  font-size: 72px;
+  font-weight: 700;
+ 
+}
+.home-page .button-large-2 {
+  display: flex;
+  flex-direction: column;
+  width: 185.33px;
+  align-items: center;
+  gap: 100px;
+  padding: 12px 16px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 100px;
+  box-shadow: 0px 6px 12px #0000001a;
+  background: linear-gradient(
+    180deg,
+    rgba(3, 46, 21, 1) 0%,
+    rgba(1, 102, 48, 1) 100%
+  );
+  text-decoration: none;
+}
+
+.home-page .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.01px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18.2px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+
+.home-page .group {
+  position: absolute;
+  width: 1456px;
+  height: 114px;
+  top: 794px;
+  left: 0;
+  background-color: #f0fdf4;
+  border-radius: 14.16px;
+}
+
+.home-page .group-wrapper {
+  position: relative;
+  width: 1327px;
+  height: 65px;
+  top: 25px;
+  left: 65px;
+}
+
+.home-page .group-2 {
+  height: 65px;
+}
+
+.home-page .frame-11 {
+  display: flex;
+  width: 1327px;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+  background-color: #f0fdf4;
+}
+
+.home-page .frame-12 {
+  display: flex;
+  height: 65.14px;
+  align-items: center;
+  justify-content: center;
+  gap: 16.28px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+
+
