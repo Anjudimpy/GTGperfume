@@ -1,0 +1,12 @@
+/* Responsive styles */
+@media (max-width: 1460px) {
+  .home-page {
+     width: 1456.25px;
+  }
+  
+ 
+  .overlap-wrapper {
+     width: 1456.25px;
+  }
+
+}
